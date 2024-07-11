@@ -1,17 +1,40 @@
 
-#recipes{
+*{
+    box-sizing: border-box;
+}
+
+
+#recipes, .mainrecipe{
     text-align: center;
     font-size: 20px;
 }
 
 
-.title{
-    font-size: 40px;
+.title, #main{
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
+   
+}
 
+#main{
+    border: 5px black;
+    border-style: dashed;
+    background-color: antiquewhite;
 }
 
 .center{
+    margin-top: 20px;
     text-align: center;
 }
+.mainrecipe, .items{;
+    display: inline;
+    margin: auto 5px;
+}
+
+.items{
+    background-color: beige;
+    border: 2px black;
+    border-style: groove;
+}
+
